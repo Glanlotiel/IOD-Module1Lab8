@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(196, 191, 179);
+}
+button {
+  border: 2px solid #333333;
+  background-color: rgb(247, 227, 204);
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: beige;
+}
+button:active {
+  background-color: #c5143a;
+  transition-duration: 0.5s;
+}
+.header {
+  background-color: rgb(196, 191, 179);
+  color: #c5143a;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+ul li a.active {
+  background-color: #c5143a;
+}
+
+div {
+  background-color: #333333;
+  color: rgb(247, 227, 204);
+  width: 15px;
+  padding: 10px;
+}

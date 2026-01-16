@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>devInc</title>
+    <link href="indexStyle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>devsInc</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+    <button type="button" id="RollD6" onclick="D6Result()">Roll D6</button>
+    <button type="button" id="ClearD6" onclick="clearD6()">Clear</button>
+    <div id="D6Call"></div>
+    <button type="button" id="RollD8" onclick="D8Result()">Roll D8</button>
+    <button type="button" id="ClearD8" onclick="clearD8()">Clear</button>
+    <div id="D8Call"></div>
+    <button type="button" id="RollD10" onclick="D10Result()">Roll D10</button>
+    <button type="button" id="ClearD10" onclick="clearD10()">Clear</button>
+    <div id="D10Call"></div>
+    <script src="backend/diceRoller.js"></script>
+  </body>
+</html>
+<!-- You have been hired by devsInc to create a landing page for their new project.
+They want to support people playing tabletop games from home and require a Dice Generator.
+
+Features:
+The user should be able to choose different dice, such as a D6 or a D10 (number of faces).
+The user should be able to roll their chosen dice to see the random outcome. -->
